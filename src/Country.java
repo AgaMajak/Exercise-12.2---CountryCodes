@@ -24,10 +24,6 @@ public class Country {
         System.out.println(map.get(code));
     }
 
-    public String getCode() {
-        return code;
-    }
-
     @Override
     public String toString() {
         return String.format("%s (%s) - %s ludności.\n", countryName, code, numberOfCitizens);
