@@ -9,7 +9,7 @@ public class CountryMain {
 
         Map<String, Country> mapOfCountries = FileReader.returnMapWithCountries(file);
 
-        Country.showInfoAbutCountryFromMap(mapOfCountries);
+        CountryInformation.showInfoAbutCountryByCode(mapOfCountries);
 
     }
 }
